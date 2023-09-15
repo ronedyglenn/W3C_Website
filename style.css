@@ -1,0 +1,551 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'Sana serif';
+    overflow-x: hidden;
+    
+}
+
+p > span{
+    text-decoration: underline;
+    color: #0E5A9C;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.nav1{
+    background: #CBE0FB;
+    height: 47px;
+    padding: 0 72px;
+    align-items: center;
+    display: flex;
+    
+}
+.nav2{
+    background: #F8F8FB;
+    height: 54px;
+    padding: 0 72px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+.menu{
+    display: flex;
+    border-bottom: 2px solid rgb(229, 227, 227);
+    align-items: center;
+    padding: 0 72px;
+    height: 100%;
+    
+    
+    
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 220px;
+    
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.menu #span li:hover{
+    border-bottom: 3px solid #0E5A9C;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px; 
+    
+}
+i{
+    position: absolute; 
+}
+
+.login :last-child{
+    border-radius: 50px;
+    border: 1px solid #0E5A9C;
+}
+.menu :first-child{
+    margin-right: 15px;
+}
+
+#block1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 72px;
+    height: 553px;
+    font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'Sana serif';
+    
+
+}
+button{
+    background: #FFFFFF;
+    border: 2px solid #125A99;
+    border-radius: 50px;
+    color: #125A99;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+}
+#block1 > .text :first-child{
+    font-size: 42px;
+    font-weight: 600;
+    /* line-height: 58.8px; */
+    
+    line-height: 58.8px;
+}
+#block1 > .text :nth-child(2){
+    font-size: 23px;
+    line-height: 32.2px;
+    margin: 15px 0;
+    
+}
+
+
+/* Le design du block2 */
+
+.item1, .item2, .item3, .item4, .item5, .item6{
+    width: 200px;
+    height: 168px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#block2{
+    background-color: #F8F8FB;
+    height: 702px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 23.5px;
+    padding: 0 72px;
+    
+    
+}
+.items{
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+    
+}
+
+.button2{
+    width: 459px;
+}
+
+#block2 :first-child{
+    margin-bottom: 20px;
+}
+#block2 :nth-child(2){
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+/* Intrégration du block3 */
+
+
+#block3{
+    padding: 102px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+    gap: 160px;
+    line-height: 24px;
+    
+}
+
+.second-row{
+    display: flex;
+    gap: 110px;
+    margin-bottom: 105px;
+    line-height: 24px;
+    
+}
+.third-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    line-height: 24px;
+    
+}
+
+.btn-1{
+    width: 286px;
+}
+.btn-2{
+    width: 334px;
+}
+.btn-3{
+    width: 231px;
+}
+
+/* stilisation des titres et des paragraphes dans les boxes */
+
+.box1 :first-child{
+    margin-bottom: 20px;
+}
+
+.box1 :nth-child(2){
+    margin-bottom: 20px;
+}
+
+
+.box4 :first-child{
+    margin-bottom: 20px;
+}
+
+.box4 :nth-child(2){
+    margin-bottom: 20px;
+}
+
+.box6 :first-child{
+    margin-bottom: 20px;
+}
+
+.box6 :nth-child(2){
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 32px;
+    overflow: hidden;
+    
+    
+}
+
+/* style du block4 */
+
+#block4{
+    height: 598px;
+    background: #0E5A9C;
+
+}
+
+.tout{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 60px;
+    
+
+}
+    
+
+
+footer{
+    height: 170px;
+    background: #FFFFFF;
+
+}
+
+.boite1, .boite2,.boite3, .boite4{
+    height: 340px;
+    width: 251px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+.boite1 :first-child{
+    margin-bottom: 5px;
+}
+.boite1 :last-child{
+    margin-top: 15px;
+}
+
+.boite2 :first-child{
+    margin-bottom: 20px;
+}
+.boite2 :last-child{
+    margin-top: 5px;
+}
+
+.boite3 :first-child{
+    margin-bottom: 168px;
+}
+
+.boite4 :first-child{
+    margin-bottom: 55px;
+}
+
+.titre{
+    line-height: 50px;
+    color: #FFFFFF;
+    padding: 90px 0 25px 95px;
+}
+
+/* la partie du pied de page */
+
+.part-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    
+}
+.f1{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    font-size: 14px;
+    
+
+}
+
+.f2{
+    display: flex;
+    gap: 25px;
+}
+
+.part-2{
+    margin: 0 90px;
+}
+
+
+
+/* animation */
+
+button:hover{
+    background-color: #aacce9;
+}
+
+p{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'sans-serif';
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+.color{
+    color: #920BA6;
+}
+
+/* Rendons notre site responsive avec des media quaries */
+
+@media screen and (max-width: 1000px) {
+    .menu{
+        display: grid;
+        box-sizing: border-box;
+    }
+
+    #block1{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+
+    }
+    #block2{
+        margin-top: 20px;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        align-items: center;
+        height: auto;
+    }
+
+    .first-row{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .second-row{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .text{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .third-row{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    #block3{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    
+    #block4{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .tout{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        
+        
+    }
+
+    .container{
+        align-items: center;
+    }
+    .f1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    button{
+        margin: 0 auto;
+        width: auto;
+    }
+    .button2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    
+    
+    .items{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .part-1{
+        display: grid;
+    }
+    footer{
+        height: auto;
+    }
+
+    .tout{
+        width: auto;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .f1{
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+     .tout{
+        width: auto;
+        justify-content: center;
+        
+    }
+    
+    
+}
+
+
+/*mega menu*/
+
+.Mege-menu1{
+    position: absolute;
+    display: none;
+    background: #FFFFFF;
+    width: 100vw;
+    line-height: 20px;
+    left: 0;
+    height: 380px;
+    padding: 60px ;
+    border: 1px solid gray;
+    
+}
+
+.menu-standards:hover .Mege-menu1{
+    display: flex;
+}
+.pt1 > h1{
+    margin-bottom: 50px;
+}
+
+.pt1 > p{
+    margin-bottom: 50px;
+}
+
+.Mege-menu1 >  section> p{
+    line-height: 35px;
+}
+
+.pt2{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+/* burger menu*/
+
+@media screen and (max-width: 1320px) {
+
+    .menu-standards, .login {
+        display: none;
+    }
+}
+
+.bg{
+    position: absolute;
+    right: 50px;
+}
+
+
+@media screen and (min-width: 1320px){
+    .bg{
+        display: none;
+    }
+}
+
